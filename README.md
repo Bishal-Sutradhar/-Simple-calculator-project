@@ -28,10 +28,10 @@ A simple calculator built using **HTML, CSS, and JavaScript**. This project supp
 ## 📂 Project Structure
 ```
 calculator/
+│── README.md    # Project documentation
 │── index.html   # Main HTML file
 │── style.css    # Stylesheet
 │── script.js    # JavaScript logic
-│── README.md    # Project documentation
 ```
 
 ---
