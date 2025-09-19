@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    height: 550px;
+    width: 400px;
+    background-color: rgb(44, 42, 42);
+    border-radius: 20px;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.display {
+    height: 70px;
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 30px;
+    overflow-x: scroll;
+}
+
+.display::-webkit-scrollbar {
+  width: 10px;
+  height: 8px;
+}
+
+.display::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #4cafef, #007bff);
+  border-radius: 10px;
+}
+
+.buttons {
+    height: 400px;
+    width: 90%;
+    background-color: rgb(87, 83, 83);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn {
+    height: 60px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.btn:hover {
+    background-color: rgb(207, 206, 206);
+}
+
+.operator {
+    height: 60px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: #ff9500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.operator:hover {
+    background-color: #b96c01;
+}
+
+.equals {
+    height: 60px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: #34c759;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.equals:hover {
+    background-color: #269341;
+}
+
+.clear {
+    background-color: #ff3b30;
+    height: 60px;
+    width: 80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.clear:hover {
+    background-color: #ba2921;
+}
+
+.del {
+    background-color: #ff3b30;
+    height: 60px;
+    width: 80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.del:hover {
+    background-color: #ba2921;
+}
+
+@media only screen and (max-width: 393px) {
+    .container {
+        height: 80vh;
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn, .clear, .operator {
+        width: 60px;
+        height: 40px;
+    }
+    .equals {
+        width: 60px;
+        height: 40px;
+    }
+    .del {
+        width: 60px;
+        height: 40px;
+    }
+    .buttons {
+        height: 55vh;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 333px) {
+    .container {
+        height: 70vh;
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn, .clear, .operator, .equals, .del {
+        width: 35px;
+        height: 35px;
+        margin: 0;
+        padding: 8px;
+        line-height: 1;
+    }
+    .buttons {
+        height: 50vh;
+        width: 80vw;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        row-gap: 5px;
+        column-gap: 5px;
+    }
+}
+
+@media only screen and (max-width: 310px) {
+    .container {
+        height: 65vh;
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn, .clear, .operator, .equals, .del {
+        width: 25px;
+        height: 25px;
+        margin: 0;
+        padding: 8px;
+        line-height: 1;
+    }
+    .buttons {
+        height: 45vh;
+        width: 80vw;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        row-gap: 5px;
+        column-gap: 5px;
+    }
+}
