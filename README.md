@@ -51,7 +51,8 @@ calculator/
 ---
 
 ## 📸 Screenshot
-![20250919_125923](https://github.com/user-attachments/assets/aed0bd18-1d37-4ca5-9b44-d3728eff4300)
+<img width="607" height="807" alt="image" src="https://github.com/user-attachments/assets/1274eded-665b-44d5-9bac-d49386698c04" />
+
 
 
 
