@@ -8,6 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(135deg, #dfe9f3, #ffffff);
 }
 .container {
     height: 550px;
@@ -211,4 +212,5 @@ body {
     }
 
 }
+
 
