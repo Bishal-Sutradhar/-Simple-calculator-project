@@ -12,7 +12,7 @@ body {
 .container {
     height: 550px;
     width: 400px;
-    background-color: rgb(44, 42, 42);
+    background-color: rgb(44, 42, 42, 0.575);
     border-radius: 20px;
     border: 2px solid gray;
     display: flex;
@@ -47,7 +47,7 @@ body {
 .buttons {
     height: 400px;
     width: 90%;
-    background-color: rgb(87, 83, 83);
+    background-color: rgb(87, 83, 83, 0.812);
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -209,4 +209,5 @@ body {
         row-gap: 5px;
         column-gap: 5px;
     }
+
 }
